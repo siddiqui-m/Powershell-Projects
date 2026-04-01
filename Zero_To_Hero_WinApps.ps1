@@ -4,7 +4,7 @@
 
 Read-Host -Prompt "Press any key to continue..."
 
-cls
+Clear-Host
 
 <# 
     winget install --id=Microsoft.WindowsTerminal -e
@@ -266,7 +266,8 @@ cls
     Samsung Printer Experience                   MSIX\SAMSUNGELECTRONICSCO.LTD.SamsungPrinter… 1.3.15.0
     Mail and Calendar                            MSIX\microsoft.windowscommunicationsapps_160… 16005.14326.22342.0
 #>
-# winget install -e --id="winaero.tweaker"
+
+<# winget install -e --id="winaero.tweaker"
 winget install -e --id="Microsoft.DotNet.SDK.8"
 winget install -e --id="Microsoft.UI.Xaml.2.7"
 winget install -e --id="Microsoft.UI.Xaml.2.8"
@@ -293,6 +294,8 @@ winget install -e --id="TGRMNSoftware.BulkRename…"
 winget install -e --id="CThingSoftware.Meazure"
 winget install -e --id="BinanceTech.Binance"
 winget install -e --id="nepnep.neofetch-win"
+#>
+
 <#
 This is a list of software that I have NOT found using winget.
 
